@@ -1,6 +1,6 @@
-*VICI to GHL PHP SCRIPT*
+# VICI to GHL PHP SCRIPT
 
-This scrip allow to update contacts in GoHighLevel using API v2 with oAuth 2.0
+This script allow to update contacts in GoHighLevel using API v2 with oAuth 2.0
 
 This is live example how to send updates from Vicidial to GHL via API webhook.
 

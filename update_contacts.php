@@ -7,20 +7,20 @@
 	
 // Define an array to map disposition codes to descriptions	
 	$dispo_descriptions = [
-    'LOST1' => 'Too expensive',
+    		'LOST1' => 'Too expensive',
 		'LOST2' => 'Let me think about it',
 		'LOST3' => 'I dont have my card',
-    'LOST4' => 'I dont get paid until',
-    'LOST5' => 'I need to talk to',
-    'LOST6' => 'I dont have my work roaster',
+    		'LOST4' => 'I dont get paid until',
+    		'LOST5' => 'I need to talk to',
+    		'LOST6' => 'I dont have my work roaster',
 		'LOST7' => 'Im driving',
 		'LOST8' => 'Sent payment link',
 		'LOST9' => 'The patient hung up',
-    'LOST10' => 'Calling patient back Should h',
-    'LOST11' => 'Others',
+    		'LOST10' => 'Calling patient back Should h',
+    		'LOST11' => 'Others',
 		'NI' => 'Disqualified',
 		'DNC' => 'Disqualified',
-    'DSQ' => 'Disqualified',
+    		'DSQ' => 'Disqualified',
 		'CALLBK' => 'Call Back',
 		'CBHOLD' => 'Call Back'
         // Add more dispositions as needed
@@ -36,12 +36,12 @@
 //	$list_name = $_GET['vicidial_list_name'];
 	
  
-// Refresh token obtained during authentication
-$refreshToken = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoQ2xhc3MiOiJMb2NhdGlvbiIsImF1dGhDbGFzc0lkIjoib3lacnp5T2tVMXNtRUxYRWhXSVMiLCJzb3VyY2UiOiJJTlRFR1JBVElPTiIsInNvdXJjZUlkIjoiNjY0YjU2YzkwYTE3ZjI2N2ExMGM5MTAyLWx3ZjIzeHExIiwiY2hhbm5lbCI6Ik9BVVRIIiwicHJpbWFyeUF1dGhDbGFzc0lkIjoib3lacnp5T2tVMXNtRUxYRWhXSVMiLCJvYXV0aE1ldGEiOnsic2NvcGVzIjpbImNhbGVuZGFycy53cml0ZSIsImNhbGVuZGFycy5yZWFkb25seSIsImNhbGVuZGFycy9ldmVudHMucmVhZG9ubHkiLCJjYWxlbmRhcnMvZXZlbnRzLndyaXRlIiwiY29udGFjdHMud3JpdGUiLCJjb250YWN0cy5yZWFkb25seSIsImxvY2F0aW9ucy9jdXN0b21GaWVsZHMucmVhZG9ubHkiLCJsb2NhdGlvbnMvY3VzdG9tRmllbGRzLndyaXRlIiwibG9jYXRpb25zL2N1c3RvbVZhbHVlcy5yZWFkb25seSIsImxvY2F0aW9ucy9jdXN0b21WYWx1ZXMud3JpdGUiXSwiY2xpZW50IjoiNjY0YjU2YzkwYTE3ZjI2N2ExMGM5MTAyIiwiY2xpZW50S2V5IjoiNjY0YjU2YzkwYTE3ZjI2N2ExMGM5MTAyLWx3ZjIzeHExIn0sImlhdCI6MTcxNjk3NzkwOS4wNjQsImV4cCI6MTc0ODUxMzkwOS4wNjQsInVuaXF1ZUlkIjoiODI5ZWU3ODMtYTQ2Ni00MDgxLWEwOTgtOGIwM2RkMjc2YWZmIn0.Ypmd6kB5nw_cDuffeWNEMr30MgoWRix6Dz4FyE9nzM4bIT4yOQWbiwy_kbg7rW8aw3iwygsOQzT6veDYAeWEVrAZHSjVKd24VEmeXgiGbWSEE5cbSy1a1EVLLQshRIKflP1D2-UGk3pp4MvBKPdUzTmfEfuHbvROn1y7rxnMeRBNu4FS6NorMc5PyopSEhYhrroK0NS63qnF8q6txJH-KV3sCsmHCRDGt8SaO1PGGtcDqSv8-7k8bVujZ3FBLfyZpxmpfN6c5Gkfh1IogUEzAVYzXhUkyKUpGGDmd4PK4jVDVjVbc-0w0mTyYMnuGyQXQ069qSakfqy-L9lVJv2267DhxF6_l9aFbPopFJ2SOtZnKPeGAa2pfud1IlXRw5vbiOzGYnZL-i4h_z-AEzd9azouPSUZJ3cb7RdE6yZzIMybj-jku_zrqQY0FWhJ9MRZLAmRmeZpiV3uB1h0jdHj_3z8Zk6IYzlkrtA9Lvopa1ykxCl2XddspEqkboJb9m2GWeQ-bYFaoAfIR9NwOtUKBJjq5d9edXNhUwQnp-U6u5DPD6ARpAQ3BF5HOEOCcmYI3fx-ZTXbGAInOw4zLTw-PziGkNE2oT4BIEBhuvxM3UgHaeU8LwIj0irmiyv5cMch6LNflzqXejyySjNuDcafww45YTYOypv5WlXZRImgqgc";
+// Refresh token obtained during authentication (Refresh token not real, it's demo data)
+$refreshToken = "mF1dGhDbGFzc0lkIjoib3lacnp5T2tVMXNtRUxYRWhXSVMiLCJzb3VyY2UiOiJJTlRFR1JBVElPTkwYTE3ZjI2N2ExMGM5MTAyLWx3ZjIzeHExIiwiY2hhbm5lbCI6Ik9BVVRIIiwicHJpbWFyeUF1dGhDbGFzc0lkIjoib3lacnp5T2tVMXNtRUxYRWhXSVMiLCJvYXV0aE1ldGEiOnsic2NvcGVzIjpbImNhbGVuZGFycy53cml0ZSIsImNhbGVuZGFycy5yZWFkb25seSIsImNhbGVuZGFycy9ldmVudHMucmVhZG9ubHkiLCJjYWxlbmRhcnMvZXZlbnRzLndyaXRlIiwiY29udGFjdHMud3JpdGUiLCJjb250YWN0cy5yZWFkb25seSIsImxvY2F0aW9ucy9jdXN0b21GaWVsZHMucmVhZG9ubHkiLCJsb2NhdGlvbnMvY3VzdG9tRmllbGRzLndyaXRlIiwibG9jYXRpb25zL2N1c3RvbVZhbHVlcy5yZWFkb25seSIsImxvY2F0aW9ucy9jdXN0b21WYWx1ZXMud3JpdGUiXSwiY2xpZW50IjoiNjY0YjU2YzkwYTE3ZjI2N2ExMGM5MTAyIiwiY2xpZW50S2V5IjoiNjY0YjU2YzkwYTE3ZjI2N2ExMGM5MTAyLWx3ZjIzeHExIn0sImlhdCI6MTcxNjk3NzkwOS4wNjQsImV4cCI6MTc0ODUxMzkwOS4wNjQsInVuaXF1ZUlkIjoiODI5ZWU3ODMtYTQ2Ni00MDgxLWEwOTgtOGIwM2RkMjc2YWZmIn0.Ypmd6kB5nw_cDuffeWNEMr30MgoWRix6Dz4FyE9nzM4bIT4yOQWbiwy_kbg7rW8aw3iwygsOQzT6veDYAeWEVrAZHSjVKd24VEmeXgiGbWSEE5cbSy1a1EVLLQshRIKflP1D2-UGk3pp4MvBKPdUzTmfEfuHbvROn1y7rxnMeRBNu4FS6NorMc5PyopSEhYhrroK0NS63qnF8q6txJH-KV3sCsmHCRDGt8SaO1PGGtcDqSv8-7k8bVujZ3FBLfyZpxmpfN6c5Gkfh1IogUEzAVYzXhUkyKUpGGDmd4PK4jVDVjVbc-0w0mTyYMnuGyQXQ069qSakfqy-L9lVJv2267DhxF6_l9aFbPopFJ2SOtZnKPeGAa2pfud1IlXRw5vbiOzGYnZL-i4h_z-AEzd9azouPSUZJ3cb7RdE6yZzIMybj-jku_zrqQY0FWhJ9MRZLAmRmeZpiV3uB1h0jdHj_3z8Zk6IYzlkrtA9Lvopa1ykxCl2XddspEqkboJb9m2GWeQ-bYFaoAfIR9NwOtUKBJjq5d9edXNhUwQnp-U6u5DPD6ARpAQ3BF5HOEOCcmYI3fx-ZTXbGAInOw4zLTw-PziGkNE2oT4BIEBhuvxM3UgHaeU8LwIj0irmiyv5cMch6LNflzqXejyySjNuDcafww45YTYOypv5WlXZRImgqgc";
 
-// Your client ID and client secret
-$clientID = "664b56c90a17f267a10c9102-lwf23xq1";
-$clientSecret = "ab99ed42-0022-4b49-9e1b-7a8527392167";
+// Your client ID and client secret (ID and Secret not real, it's demo data)
+$clientID = "90a17f267a10c9102";
+$clientSecret = "ed42-0022-4b49-9e1b-7a85273";
 
 // Token endpoint
 $tokenEndpoint = "https://services.leadconnectorhq.com/oauth/token";
@@ -84,7 +84,7 @@ if ($httpCode == 200) {
  //       'lastName' => "$lastName",
  //		'city' => "$disposition",
 
-// Add other fields you want to update here
+// Add other Custom fields fields you want to update here
 		'customFields' => [
         [
                 'id' => '$contact_id',
